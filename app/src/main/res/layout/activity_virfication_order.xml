@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_lang"
+
+    tools:context=".ui.Auth.VirficationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/top"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp">
+
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="3dp"
+
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="13dp"
+                    android:src="@drawable/logo_w"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/Verify_your_order"
+                android:textColor="@color/purple_200"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/Enter_your_OTP_code_here"
+                android:textSize="13dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:paddingTop="20dp">
+
+                <EditText
+                    android:maxLength="1"
+
+                    android:id="@+id/a1"
+                    android:layout_width="50dp"
+                    android:inputType="number"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:autofillHints="smsOTPCode"
+                    android:importantForAutofill="yes"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/back_edit" />
+
+
+                <EditText
+                    android:id="@+id/a2"
+
+                    android:layout_width="50dp"
+                    android:inputType="number"
+                    android:maxLength="1"
+
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:autofillHints="smsOTPCode"
+                    android:importantForAutofill="yes"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/back_edit" />
+
+
+                <EditText
+                    android:id="@+id/a3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:autofillHints="smsOTPCode"
+                    android:importantForAutofill="yes"
+                    android:maxLength="1"
+
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/back_edit" />
+
+
+                <EditText
+                    android:id="@+id/a4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:maxLength="1"
+                    android:inputType="number"
+
+                    android:autofillHints="smsOTPCode"
+                    android:importantForAutofill="yes"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/back_edit" />
+
+
+                <EditText
+                    android:id="@+id/a5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:visibility="gone"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/back_edit" />
+
+
+                <EditText
+                    android:id="@+id/a6"
+                    android:layout_width="50dp"
+                    android:visibility="gone"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/back_edit" />
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/receivecode"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/recend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="@string/Resend"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/nextlay"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/button_login"
+                    android:gravity="center"
+
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp">
+
+                    <TextView
+                        android:id="@+id/next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingStart="25dp"
+                        android:paddingEnd="25dp"
+                        android:text="@string/Submit"
+
+                        android:textColor="@color/white"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/circle"
+                        android:padding="6dp"
+                        android:src="@drawable/next_icon" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

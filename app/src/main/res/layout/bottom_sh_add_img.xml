@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frontImage"
+                android:textSize="14dp"
+
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="134dp"
+                android:layout_height="134dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="134dp"
+                    android:layout_height="134dp"
+                    android:background="@drawable/back_about_us"
+                    android:padding="40dp"
+                    android:src="@drawable/icon_material_library_add1" />
+
+                <ImageView
+                    android:id="@+id/front_img"
+                    android:layout_width="134dp"
+                    android:layout_height="134dp" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_image"
+                android:textSize="14dp"
+
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="134dp"
+                android:layout_height="134dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="134dp"
+                    android:layout_height="134dp"
+                    android:background="@drawable/back_about_us"
+                    android:padding="40dp"
+                    android:src="@drawable/icon_material_library_add1" />
+
+                <ImageView
+                    android:id="@+id/bavk_img"
+                    android:layout_width="134dp"
+                    android:layout_height="134dp" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

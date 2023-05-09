@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">Insurco</string>
+
+
+    <string name="Skip">تخطي</string>
+
+
+    <string name="English">English</string>
+    <string name="Arabic">عربي</string>
+    <string name="Turki">Urdu</string>
+    <string name="Log_in">تسجيل دخول</string>
+    <string name="Phone_number">رقم الموبايل</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="Forget_password">نسيت كلمة المرور ?</string>
+    <string name="Register">تسجيل</string>
+    <string name="Or">او</string>
+    <string name="Facebook">تسجيل بالفيس بوك</string>
+    <string name="google">تسجيل بجوجل</string>
+    <string name="You_don_have_accoun">لا تمتلك حساب؟</string>
+    <string name="Verify_your_phone_number">تاكيد رقم هاتفك او جوالك</string>
+    <string name="Enter_your_OTP_code_here">ادخل رمز الخاص بك.</string>
+    <string name="receivecode">إذا لم تتلق أي رمز</string>
+    <string name="Resend">اعادة ارسال</string>
+    <string name="You_have_an_account">تمتلك حساب؟</string>
+    <string name="Name">الاسم</string>
+    <string name="Email">البريد الالكتروني</string>
+    <string name="Accept_the">وافق على </string>
+    <string name="terms_cond">الاحكام والشروط</string>
+    <string name="FAQS">اسئلة واجوبة</string>
+    <string name="Your_Message">رسالتك</string>
+    <string name="Attach_File">ملحق ملف</string>
+    <string name="Subject">العنوان</string>
+    <string name="ContactUs">تواصل معنا</string>
+    <string name="Submit">ارسال</string>
+    <string name="Order_comparison">مقارنة الطلب</string>
+    <string name="Company_selection">اختيار شركة</string>
+    <string name="Contact_us_v">تواصل معنا</string>
+    <string name="Follow_Us">تابعنا</string>
+    <string name="Inquiry_Form">نموذج الاستفسار</string>
+    <string name="Attach_files">ملحق الملف</string>
+    <string name="NextBtn">التالي</string>
+    <string name="OwnerShip">ملكية</string>
+    <string name="examination">فحص المركبة اليوم او تسجيل المركبة الجمركية او شهادة حيازة ( اختياري)</string>
+    <string name="examination2">فحص المركبة اليوم او تسجيل المركبة الجمركية او شهادة حيازة</string>
+    <string name="other_photo">صور اخرى</string>
+    <string name="vehicle">صور المركبة (اختياري)</string>
+    <string name="vehicle2">صور المركبة</string>
+
+
+    <string name="Emirate_ID">صورة الهوية</string>
+    <string name="Driver_License">رخصة القيادة</string>
+    <string name="any_assis">إذا كنت بحاجة إلى أي مساعدة ، فلا تتردد في الاتصال بنا:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Insurance_Type">نوع التأمين</string>
+    <string name="You_have_2_comparison">تمتلك</string>
+    <string name="You_have_2_comparison1">مقارنة</string>
+    <string name="Motor_Insurance">تأمين المركبات</string>
+    <string name="Health_Insurance">تامين صحي</string>
+    <string name="Life_Insurance">التامين على الحياه</string>
+    <string name="Travel_Insurance">تامين السفر</string>
+    <string name="Trucks">الشاحنات</string>
+    <string name="Settings">الاعدادات</string>
+    <string name="Language">اللغة</string>
+    <string name="Login">تسجيل دخول</string>
+    <string name="SendBtn">ارسال</string>
+    <string name="EnterMobile">ادخل رقم الهاتف لارسال كلمة المرور</string>
+
+
+    <string name="CommingSoon">قريبا ...</string>
+    <string name="TermsC">الاحكام والشروط</string>
+    <string name="required">مطلوب</string>
+
+
+    <string name="yes">نعم</string>
+    <string name="No">لا</string>
+    <string name="AreYouwantChangeLangouage">هل تريد تغير اللغة ؟</string>
+    <string name="Are_you_pregnant">هل انتي حامل</string>
+
+    <string name="Gender">الجنس</string>
+    <string name="has_you_insurance">انتهت صلاحية بوليصة التأمين الخاصة بك </string>
+    <string name="chronic">هل لديك أي أمراض مزمنة أو موجودة مسبقًا؟ </string>
+
+    <string name="selectGender">حدد نوع الجنس</string>
+    <string name="Selectx">اختر</string>
+    <string name="minutes">دقائق</string>
+
+    <string name="Male">ذكر</string>
+    <string name="female">انثى</string>
+    <string name="Passport">جواز السفر</string>
+    <string name="visaPage">فيزا (اختياري)</string>
+    <string name="AED">درهم</string>
+    <string name="All_the_details">كل التفاصيل</string>
+    <string name="Maintenance">اعمل صيانة</string>
+    <string name="TakeImage">خذ صورة</string>
+    <string name="selectCar">حدد نوع السيارة</string>
+
+
+    <string name="aaa1">مركبتي</string>
+    <string name="aaa2">مركبة مستعمله</string>
+    <string name="aaa3">مركبة جديده</string>
+
+    <string name="aabx">اختار</string>
+
+    <string name="aab1">شامل</string>
+    <string name="aab2">ضد الغير</string>
+
+    <string name="aac1">تامين غير منتهي</string>
+    <string name="aac2">تامين منتهي</string>
+
+    <string name="aav1">نعم</string>
+    <string name="aav2">لا</string>
+
+
+    <string name="aavxx">جهة التسجيل</string>
+    <string name="aavxxxxx">هل السيارة مرهونه </string>
+    <string name="aavxxxxx1">اسم البنك المرهون له</string>
+    <string name="ax">مكان التسجيل</string>
+    <string name="ax23">اين يتم توصيل ملفات التامين</string>
+
+
+    <string name="aec">صورة لفحص المركبة بنفس اليوم</string>
+    <string name="aec1">صور اخرى (اختياري)</string>
+    <string name="aec2">ملكية المركبة</string>
+
+
+    <string name="frontImage">الصورة الامامية</string>
+    <string name="back_image">الصورة الخلفيه</string>
+
+    <string name="right_side">الصورة الجانبية اليمين</string>
+    <string name="left_side">الصورة الجانبية الشمال</string>
+
+
+    <string name="car_img">صور السيارة</string>
+    <string name="Verify_your_order">تفعيل الطلب</string>
+
+
+    <string name="Expires_in">ينتهي بعد</string>
+    <string name="hours">ساعات</string>
+    <string name="finish">انتهى</string>
+    <string name="car_price">سعر السيارة</string>
+    <string name="Total_price">السعر الكلي</string>
+    <string name="Checkout">ادفع</string>
+    <string name="repair_price">مكان التصليح</string>
+    <string name="endurance_value">قيمة التحمل</string>
+
+    <string name="No_Data_Found">لا يوجد بيانات</string>
+    <string name="Motor">مركبات</string>
+    <string name="Health">صحة</string>
+    <string name="more_Det">تفاصيل زياده</string>
+    <string name="Logout">تسجيل خروج</string>
+    <string name="Select">اختار</string>
+    <string name="AreYouwantChangeLlogout">هل تريد الخروج من التطبيق?</string>
+
+
+
+    <string name="asd1">انشوركو</string>
+    <string name="asd2">تأمين مركبتك خلال دقائق معدودة ؟</string>
+    <string name="asd3">تأمينك الصحي اصبح اسهل ؟</string>
+
+
+    <string name="asd11">قارن واشتري تأمينك الصحي من أفضل شركات التأمين الصحي في  الإمارات نقدم لك افضل العروض ... احصل على أفضل وثيقة تأمين صحي لك ولأفراد أسرتك.</string>
+    <string name="asd22">أحصل على الحماية أينما ذهبت مع تأمين المركبات احصل على تغطية شاملة  او ضد الغير ... اشترِ تأمين المركبات من انشوركو بأقل الاسعار وخلال دقائقٍ معدودة ء!</string>
+    <string name="asd33">انشوركو أكثر من 20 شركة تأمين في مكان واحدادخل بياناتك .... قارن العروض  ....  ادفع واستلم وثيقتك ....  انشوركو ... أبسط من كذا مافي</string>
+
+    <string name="select">اختر جهة التسجيل</string>
+
+    <string name="AbuDhabi">أبو ظبي</string>
+    <string name="Ajman">عجمان</string>
+    <string name="Dubai">دبي</string>
+    <string name="Fujairah">الفجيرة</string>
+
+    <string name="DocumentDocument">جهة توصيل المستندات</string>
+    <string name="title_comparison">مقارنة</string>
+    <string name="required2">يرجى ادخال صورة على الاقل في صور المركبة او فحص المركبة</string>
+
+</resources>

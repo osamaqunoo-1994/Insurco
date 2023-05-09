@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <SurfaceView
+            android:id="@+id/preview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_camera" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/foucase"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+
+            <View
+                android:layout_width="90px"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_camera" />
+
+            <View
+                android:orientation="vertical"
+                android:id="@+id/image_co"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="90px"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_camera" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/back_camera" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!---Customize your views and button-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/frontImage"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/front_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="#30ffffff" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/back_image"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/back_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:background="#30ffffff" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:layout_centerInParent="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/ic_photo_camera_black_48dp"
+            app:backgroundTint="@color/white" />
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="150dp"
+            android:visibility="gone"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_login"
+            android:gravity="center"
+            android:text="@string/NextBtn"
+            android:textColor="@color/white"
+
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+
+
+
+    </RelativeLayout>
+</FrameLayout>
